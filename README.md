@@ -5,13 +5,17 @@ _Shelley Vohr_
 
 This application allows for you to view and edit personalized map markers according to a series of predetermined categories.
 
+#### How do I use it?
+
+Once you navigate to the link, you'll see a map with icons on it; these icons are coded to the category type they've been filed under. To add a new location, click the `+` sign in the sidebar. From there you can fill location fields, and the new location will be automatically placed in the map and updated on the sidebar. Clicking on any location name in the sidebar brings up an edit screen, and clicking the trash icon will remove the icon from the database (and thus the sidebar and map). I've created a testing account for the public version of this project, so feel free to add and edit things! 
+
 #### How was it built?
 
 Built almost completely in javascript, node-ified by Browserify.
 
 #### **How do you run it?**
 
-At the moment, in order to run the project as intended you'll need to create a (free) account and base on [Airtable](airtable.com).  The header fields need to be (in no specific order) :
+At the moment, in order to run the project you'll need to create a (free) account and base on [Airtable](airtable.com).  The header fields need to be (in no specific order) :
 
 `title` `address` `lat` `lng` `link`
 
@@ -38,5 +42,3 @@ Future TBD:
 The sidebar appears when a new location is being added, if the sidebar was already open.
 
 Row deletion issues in Airtable make it so that records exist as blank, creating some weirdness on location pulls.
-
-My horrendous commit messages...I'll amend those soon I swear 

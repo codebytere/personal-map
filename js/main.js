@@ -11,8 +11,8 @@ var infoWindows = [];
 $(document).ready(function() {
   var mapOptions = {
     "center": {
-      "lat": 40.7828647,
-      "lng": -73.9653551
+      "lat": 40.759976,
+      "lng": -73.9799772
     }
     , "clickableIcons": true
     , "disableDoubleClickZoom": false
