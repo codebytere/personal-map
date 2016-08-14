@@ -1,0 +1,30 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "Personal Map Application",
+  "main": "js/main.js",
+  "dependencies": {
+    "airtable": "^0.4.2",
+    "browserify": "^13.1.0",
+    "fontawesome-markers": "^4.6.1",
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "watchify": "^3.7.0"
+  },
+  "scripts": {
+    "watch-js": "watchify js/main.js -o js/dist.js -dv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeBytere/map.git"
+  },
+  "author": "Shelley Vohr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeBytere/personal-map/issues"
+  },
+  "homepage": "https://github.com/CodeBytere/personal-map#readme"
+}
+

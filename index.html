@@ -1,0 +1,29 @@
+<head>
+  <title>Map</title>
+  <link rel="shortcut icon" href="http://icons.iconarchive.com/icons/grafikartes/flat-retro-modern/512/maps-icon.png" />
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCknGe7YKjo9M_GBv5aHYvVsON7gp9M7OA&libraries=places"></script>
+
+  <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+  <script src="js/dist.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"></script>
+
+  <script>
+    $(function(){
+      $("#includedSidebar").load("html/sidebar.html");
+    });
+  </script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/css/search.css">
+  <link rel="stylesheet" type="text/css" href="css/css/modal.css">
+  <link rel="stylesheet" type="text/css" href="css/css/sidebar.css">
+
+</head>
+
+<body>
+  <div id='map' class="sidebar-map"></div>
+  <div id="includedSidebar"></div>
+  <input id="search-box" class="controls" type="text" placeholder="Search">
+</body>

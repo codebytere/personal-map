@@ -1,0 +1,94 @@
+<script src="./js/sidebar.js"></script>
+
+<script>
+   var sidebar = $('#sidebar').sidebar();
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/css/sidebar.css">
+
+<div id="sidebar" class="sidebar collapsed">
+  <div class="sidebar-tabs">
+    <ul role="tablist">
+      <li>
+        <a href="#home" role="tab"> <i class="fa fa-key"></i> </a>
+      </li>
+      <li>
+        <a href="#restaurants" role="tab"> <i class="fa fa-cutlery"></i> </a>
+      </li>
+      <li>
+        <a href="#coffee" role="tab"> <i class="fa fa-coffee"></i> </a>
+      </li>
+      <li>
+        <a href="#landmarks" role="tab"> <i class="fa fa-eye"></i> </a>
+      </li>
+      <li>
+        <a href="#nightlife" role="tab"> <i class="fa fa-glass"></i> </a>
+      </li>
+      <li>
+        <a>
+          <button class="modal_button" id="mod_btn">
+            <i class="fa fa-plus"></i>
+          </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="sidebar-content">
+    <div class="sidebar-pane" id="home">
+      <h1 class="sidebar-header">
+        Key Locations
+        <span class="sidebar-close">
+          <i class="fa fa-caret-left"></i>
+        </span>
+      </h1>
+      <p id="key_location_locs"></p>
+    </div>
+
+    <div class="sidebar-pane" id="restaurants">
+      <h1 class="sidebar-header">
+        Restaurants
+        <span class="sidebar-close">
+          <i class="fa fa-caret-left"></i>
+        </span>
+      </h1>
+      <p id="restaurant_locs"></p>
+    </div>
+    <div class="sidebar-pane" id="coffee">
+      <h1 class="sidebar-header">
+        Coffee
+        <span class="sidebar-close">
+          <i class="fa fa-caret-left"></i>
+        </span>
+      </h1>
+      <p id="coffee_locs"></p>
+    </div>
+    <div class="sidebar-pane" id="landmarks">
+      <h1 class="sidebar-header">
+        Landmarks
+        <span class="sidebar-close">
+          <i class="fa fa-caret-left"></i>
+        </span>
+      </h1>
+      <p id="landmark_locs"></p>
+    </div>
+    <div class="sidebar-pane" id="nightlife">
+      <h1 class="sidebar-header">
+        Nightlife
+        <span class="sidebar-close">
+          <i class="fa fa-caret-left"></i>
+        </span>
+      </h1>
+      <p id="nightlife_locs"></p>
+    </div>
+    <div class="sidebar-pane" id="settings">
+      <h1 class="sidebar-header">
+        Settings
+        <span class="sidebar-close">
+          <i class="fa fa-caret-left"></i>
+        </span>
+      </h1>
+    </div>
+
+  </div>
+</div>
