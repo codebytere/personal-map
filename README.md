@@ -7,7 +7,7 @@ This application allows for you to view and edit personalized map markers accord
 
 #### How do I use it?
 
-Once you navigate to the link, you'll see a map with icons on it; these icons are coded to the category type they've been filed under. To add a new location, click the `+` sign in the sidebar. From there you can fill location fields, and the new location will be automatically placed in the map and updated on the sidebar. Clicking on any location name in the sidebar brings up an edit screen, and clicking the trash icon will remove the icon from the database (and thus the sidebar and map). I've created a testing account for the public version of this project, so feel free to add and edit things! 
+Once you navigate to the link, you'll see a map with icons on it; these icons are coded to the category type they've been filed under. To add a new location, click the `+` sign in the sidebar. From there you can fill location fields, and the new location will be automatically placed in the map and updated on the sidebar. Clicking on any location name in the sidebar brings up an edit screen, and clicking the trash icon will remove the icon from the database (and thus the sidebar and map). I've created a testing account for the public version of this project, so feel free to add and edit things!
 
 #### How was it built?
 
